@@ -19,6 +19,19 @@ Designed to make cloud engineering concepts easier to understand, practice, and 
 
 The focus is on understanding how services work together, gaining practical experience with the Google Cloud Console and CLI, and developing skills beyond the certification exam.
 
+<img width="1744" height="1733" alt="Screenshot from 2026-10-06 14-59-09" src="https://github.com/user-attachments/assets/429fc081-101f-4cc0-b08d-db37378bdf11" />
+
+<img width="1776" height="1892" alt="image" src="https://github.com/user-attachments/assets/2f80c492-3bc2-4f00-9b20-faabf7fba638" />
+
+<img width="1773" height="1918" alt="image" src="https://github.com/user-attachments/assets/7288418a-3356-4a11-8466-a07da3f558d0" />
+
+<img width="1773" height="1918" alt="image" src="https://github.com/user-attachments/assets/f8e382e9-17b4-4097-af11-77ce59368d44" />
+
+<img width="1773" height="1918" alt="image" src="https://github.com/user-attachments/assets/2970d26a-97f7-4ac7-8810-11eceb31673e" />
+
+<img width="1500" height="1337" alt="image" src="https://github.com/user-attachments/assets/951357a1-33b6-4fd7-8f37-18b10778e607" />
+
+
 ## Tech Stack
 
 React · Vite · JavaScript · CSS · Docker · Nginx
