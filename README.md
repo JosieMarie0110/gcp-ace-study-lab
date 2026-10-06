@@ -1,44 +1,43 @@
-# GCP ACE Study Lab — Primary Study Guide + Labs
+# GCP ACE Study Lab
 
-A React/Vite learning app. Google Cloud-inspired interface; not affiliated with Google.
+A self-paced learning portal built for the **Google Cloud Associate Cloud Engineer (ACE)** certification.
 
-## What is included
+Designed to make cloud engineering concepts easier to understand, practice, and retain through short, focused learning sessions—whether studying at a desk or on the go.
 
-- **12 full-length study lessons** with mental models, real-world examples, troubleshooting checks, read-only CLI inspection suggestions, exam distinctions and retrieval questions.
-- **10 interactive simulated labs**: 6 troubleshooting investigations and 4 requirements-to-services design challenges, across guided and advanced difficulty.
-- **54 existing multiple-choice questions** with explanations and review filters.
-- **14 CLI training challenges** from Linux navigation to GCP inventory, logs, IAM inspection, and a simulated authenticated Cloud Run deployment. Guided and independent modes, explanations, command checks and simulated outputs.
-- Local browser progress for lessons, labs, CLI training and quizzes.
+## Features
 
-The seven uploaded practice-test transcripts are **not** individually verified or transformed into new quiz questions in this rebuild. The original 54-question active bank was retained.
+- **Structured Lessons:** GCP concepts, service architecture, and real-world use cases explained in manageable segments.
+- **Practice Questions:** Scenario-based questions with answer explanations.
+- **Troubleshooting Labs:** Guided exercises covering common cloud infrastructure issues.
+- **Architecture Labs:** Translate business and technical requirements into GCP service selections.
+- **CLI Training:** Learn `gcloud` commands, configuration, and troubleshooting through guided and independent exercises.
+- **Progress Tracking:** Track completed lessons, exercises, and areas needing review.
 
-## Ubuntu: update the EXISTING project
+## Learning Approach
 
-Unzip the flat-root rebuild archive **into the directory that already contains package.json**. For the folder path shown in your previous terminal:
+**Learn → Apply → Troubleshoot → Practice → Review**
+
+The focus is on understanding how services work together, gaining practical experience with the Google Cloud Console and CLI, and developing skills beyond the certification exam.
+
+## Tech Stack
+
+React · Vite · JavaScript · CSS · Docker · Nginx
+
+## Getting Started
+
+Requires Node.js and npm.
 
 ```bash
-cd ~/Desktop/dev-projects/gcp-ace-study-lab/gcp-ace-study-lab
-unzip -o ~/Downloads/gcp-ace-study-lab-cli.zip -d .
-ls package.json src/App.jsx src/data/deepLessons.js
+git clone https://github.com/josiemarie0110/gcp-ace-study-lab.git
+cd gcp-ace-study-lab
 npm install
 npm run dev
 ```
 
-Open the localhost URL shown by Vite (usually http://localhost:5173). **Do not unzip into the parent folder**, or you'll recreate the previous nested-directory problem.
+Open `http://localhost:5173`.
 
-If starting from scratch, create a new directory and extract there:
+## Status
 
-```bash
-mkdir -p ~/Desktop/dev-projects/gcp-ace-study-lab-new
-unzip ~/Downloads/gcp-ace-study-lab-cli.zip -d ~/Desktop/dev-projects/gcp-ace-study-lab-new
-cd ~/Desktop/dev-projects/gcp-ace-study-lab-new
-npm install
-npm run dev
-```
+Under active development. Additional practice questions, labs, and CLI exercises are being added.
 
-## Notes
-
-- Lessons contain practical guidance for learning. Check the current official Google Cloud docs before making production changes.
-- Simulated lab decisions do not create cloud resources. Console and CLI companion steps are optional; live resource creation can incur charges.
-- Progress is saved to localStorage at `ace-study-react-v1`, reusing your earlier local records in the same browser/origin.
-- Use `npm run build` for a production build. The package install/build could not be run inside this artifact environment because registry DNS was unavailable; source JSX parsing and data checks were performed instead.
+*Independent study project. Not affiliated with Google Cloud.*
