@@ -1,6 +1,6 @@
 # GCP ACE Study Lab
 
-A self-paced learning portal built for the **Google Cloud Associate Cloud Engineer (ACE)** certification.
+A self-paced learning portal built for the Google Cloud Associate Cloud Engineer certification.
 
 Designed to make cloud engineering concepts easier to understand, practice, and retain through short, focused learning sessions, whether studying at a desk or on the go.
 
